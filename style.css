@@ -1,0 +1,70 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+td{
+    border:5px solid rgb(82, 77, 77);
+    height: 100px;
+    width: 100px;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 70px;
+    cursor: pointer;
+}
+.container{
+    position: absolute;
+    left: 50%;
+    margin-left: -160px;
+    top: 25%;
+}
+.heading{
+    text-align: center;
+    font-size: 3rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+span{
+    color: orangered;
+}
+table{
+    border-collapse: collapse;
+}
+table tr:first-child td{
+    border-top: 0;
+}
+table tr:last-child td{
+    border-bottom: 0;
+}
+table tr td:last-child{
+    border-right: 0;
+}
+table tr td:first-child{
+    border-left: 0;
+}
+.endgame {
+    /* display: none; */
+    width: 320px;
+    height: 320px;
+    top: 25%;
+    background-color: rgba(148, 133, 133, 0.9);
+    position: absolute;
+    left: 50%;
+    margin-left: -160px;
+    text-align: center;
+    border-radius: 5px;
+    color: white;
+    font-size: 2em;
+}
+.btn{
+    padding: 20px 30px;
+    margin-top: 20px;
+    border: none;
+    background-color: #fff;
+    font-size: 1.5rem;
+    border-radius: 5px;
+    color: black;
+}
+.text{
+    font-size: 3.5rem;
+    padding-top: 80px;
+    color: white;
+}
